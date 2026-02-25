@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,26 +11,30 @@
       rel="stylesheet"
     />
 
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Interactive Rating Component</title>
   </head>
   <body>
     <main>
       <div class="review-card">
-        <img src="images/icon-star.svg" alt="" />
+        <div class="img-container">
+          <img src="images/icon-star.svg" alt="" class="star-icon" />
+        </div>
 
         <h2 class="heading">How did we do?</h2>
         <p class="paragraph">
           Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering.
+          is appreciated to help us improve our offering!
         </p>
 
-        <ul class="rating-scale">
-          <li data-rating="1">1</li>
-          <li data-rating="1">2</li>
-          <li data-rating="1">3</li>
-          <li data-rating="1">4</li>
-          <li data-rating="1">5</li>
-        </ul>
+        <div class="rating-scale">
+          <button class="rating-btn" data-rating="1">1</button>
+          <button class="rating-btn" data-rating="1">2</button>
+          <button class="rating-btn" data-rating="1">3</button>
+          <button class="rating-btn" data-rating="1">4</button>
+          <button class="rating-btn" data-rating="1">5</button>
+        </div>
 
         <button class="submit-btn">Submit</button>
       </div>
@@ -42,7 +45,7 @@
           alt="Thank you for your review!"
         />
 
-        <p>You selected 4 out of 5</p>
+        <p class="rating-score">You selected 4 out of 5</p>
 
         <h2 class="heading">Thank you!</h2>
         <p class="paragraph">
