@@ -31,7 +31,7 @@ The interface is fully keyboard accessible, with clear hover and focus states fo
 
 ### 🔗 Links
 
-- 💡 Solution URL: [Frontend Mentor Submission](---)
+- 💡 Solution URL: [Frontend Mentor Submission](https://www.frontendmentor.io/solutions/interactive-rating-component-with-html-css-and-js-JW5SBFWahL)
 - 🌐 Live Site URL: [Live Demo](https://thewizard04-interactive-rating.vercel.app)
 
 ---
